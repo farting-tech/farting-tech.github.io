@@ -1,11 +1,33 @@
 body {
-    margin: 0;
+    font-family: sans-serif;
+    background-color: #111;
+    color: white;
 }
 
-#bgVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
+a {
+    color: green;
+}
+
+.center {
+    text-align: center;
+}
+
+.center p, .center hr, .center h2 {
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 500px) {
+    .center p, .center hr, .center h2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .center video {
+        width: 99%;
+    }
 }
