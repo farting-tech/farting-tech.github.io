@@ -12,10 +12,6 @@ a {
     text-align: center;
 }
 
-.masto {
-    display: none;
-}
-
 .center p, .center hr, .center h2 {
     color: white;
     margin-left: 15%;
